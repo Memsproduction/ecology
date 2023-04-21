@@ -1,0 +1,235 @@
+.text{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    color: rgb(146, 243, 0);
+    right: 20px;
+    font-size: 80px;
+    z-index: 1;
+}
+.backround
+{
+position: fixed;
+
+top: -50%;
+
+left: -50%;
+
+width: 200%;
+height: 200%;
+z-index: 0;
+}
+.img
+{
+    z-index: 1;
+    position: absolute;
+
+top: 0;
+
+left: 0;
+
+right: 0;
+
+bottom: 0;
+
+margin: auto;
+
+min-width: 50%;
+
+min-height: 50%;
+}
+nav ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+nav a {
+ display: block;
+ text-decoration: none;
+ outline: none;
+}
+.topmenu {
+ backface-visibility:visible;
+ background: rgba(149, 241, 0, 0.8);
+ z-index: 2;
+ list-style: none;
+  padding: 0 35px;
+  margin: 0;
+  font-size: 19px;
+  text-align: center;
+  position: relative;
+  top: -200px;
+  left: -5px;
+}
+.topmenu > li {
+ display: inline-block;
+ position:sticky;
+ z-index: 3;
+ top: -190px;
+ left: 50px;
+ text-align: center;
+}
+.topmenu > li > a {
+ font-family: 'Exo 2', sans-serif;
+ height: 70px;
+ line-height: 70px;
+ padding: 0 30px;
+ font-weight: bold;
+ color: #18940877;
+ text-transform: uppercase;
+}
+.down:after {
+ content: "\f107";
+ margin-left: 8px;
+ font-family: FontAwesome;
+}
+.topmenu li a:hover { color: #E6855F; }
+.submenu {
+ background: rgba(115, 255, 115, 0.897);
+ border: 2px solid #aff07a;
+ position: absolute;
+ left: 0;
+ visibility: hidden;
+ opacity: 0;
+ z-index: 5;
+ width: 150px;
+ transform: perspective(600px) rotateX(-90deg);
+ transform-origin: 0% 0%;
+ transition: .6s ease-in;
+}
+.topmenu > li:hover .submenu{
+ visibility: visible;
+ opacity: 1;
+ transform: perspective(600px) rotateX(0deg);
+}
+.submenu li a {
+ color: rgb(85, 196, 11);
+ font-size: 13px;
+ line-height: 36px;
+ padding: 0 25px;
+ font-family: 'Kurale', serif;
+}
+.news{
+    position: relative;
+    z-index: 4;
+   color: rgb(43, 197, 43);
+   font-size: 40px;
+   left: 120px;
+   top: -20px;
+}
+.first{
+    position: relative;
+    width: 390px;
+    height: 220px;
+    border: 3px solid green;
+    top: -45px;
+    left: 20px;
+    z-index: 2;
+}
+.pic{
+    z-index: 1;
+    width: 390px;
+    height: 220px;
+}
+.t{
+position: relative;
+top: -220px;
+color: green;
+font-size: 15px; 
+left: 7px;
+}
+.nature{
+    z-index: 4;
+    color: rgb(43, 197, 43);
+    font-size: 40px;
+    position: relative;
+    left: 610px;
+    top: -370px;
+}
+.sec{
+    position: relative;
+    width: 390px;
+    height: 220px;
+    border: 3px solid green;
+    z-index: 2;
+    left: 450px;
+    top: -395px;
+}
+.d{
+    position: relative;
+    top: -220px;
+    left: 10px;
+    color: green;
+    font-size: 20px;
+}
+.plant{
+    z-index: 4;
+    color: rgb(43, 197, 43);
+    font-size: 40px;
+    position: relative;
+    top: -715px;
+    left: 1000px;
+}
+.third{
+    position: relative;
+    width: 390px;
+    height: 220px;
+    border: 3px solid green;
+    z-index: 2;
+    left: 900px;
+    top: -747px;
+}
+.f{
+    color: green;
+    font-size: 30px;
+    position: relative;
+    top: -230px;
+    left: 20px;
+}
+.teleg{
+    border-top: 3px solid green;
+
+    position: relative;
+    width: 1400px;
+    height: 310px;
+   margin-top: -500px;
+   margin-left: -10px;
+   background: rgba(196, 245, 117, 0.8);
+}
+
+.tele{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 420px;
+    top: 20px;
+}
+.teleh{
+    position: relative;
+    left: 590px;
+    width: 70px;
+    height: 70px;
+    top: 15px;
+}
+.telet{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 15px;
+    left: 760px;
+}
+.con{
+    position: relative;
+    top: 160px;
+    left: 10px;
+}
+.ghg{
+    position: relative;
+    left: 300px;
+    top: 125px;
+}
+.ghgg{
+    position: relative;
+    left: 600px;
+    top: 90px;
+}

@@ -1,0 +1,97 @@
+.back{
+    position: fixed;
+
+top: -50%;
+
+left: -50%;
+
+width: 200%;
+height: 200%;
+z-index: 0;
+}
+.img{
+    z-index: 1;
+    position: absolute;
+
+top: 0;
+
+left: 0;
+
+right: 0;
+
+bottom: 0;
+
+margin: auto;
+
+min-width: 50%;
+
+min-height: 50%;
+}
+.futu{
+    border: 3px green solid;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    border-radius: 20px;
+    left: 100px;
+    top: 190px;
+}
+.text{
+    position: relative;
+    color: rgb(6, 129, 6);
+    left: 190px;
+    top: 190px;
+}
+.text2{
+    color: green;
+    margin-left: 10px;
+}
+.text4{
+    color: rgb(5, 126, 5);
+    position: relative;
+    margin-left: 570px;
+    margin-top: -210px;
+}
+.futur{
+    border: 3px green solid;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    border-radius: 20px;
+    left: 500px;
+}
+.text5{
+    color: rgb(5, 126, 5);
+    position: relative;
+    margin-left: 960px;
+    margin-top: -400px;
+}
+.futur2{
+    border: 3px green solid;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    border-radius: 20px;
+    left: 920px;
+}
+.text7{
+    font-size: 20px;
+    color: green;
+    margin-left: 20px;
+}
+.picture{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    top: -480px;
+    left: 100px;
+}
+.bot{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    top: -480px;
+    left: 370px;
+}

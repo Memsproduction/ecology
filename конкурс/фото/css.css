@@ -1,0 +1,57 @@
+.back{
+    position: fixed;
+
+top: -50%;
+
+left: -50%;
+
+width: 200%;
+height: 200%;
+z-index: 0;
+}
+.img{
+    z-index: 1;
+    position: absolute;
+
+top: 0;
+
+left: 0;
+
+right: 0;
+
+bottom: 0;
+
+margin: auto;
+
+min-width: 50%;
+
+min-height: 50%;
+}
+.photo{
+    position: relative;
+}
+.ph2{
+    width: 1300px;
+    height: 650px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.ph3{
+    position: relative;
+    margin-top: 30px;
+    width: 1300px;
+    height: 650px;
+    margin-left: 20px;
+}
+.ph4{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.ph5{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 1300px;
+    height: 600px;
+}

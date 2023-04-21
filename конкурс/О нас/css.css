@@ -1,0 +1,62 @@
+body{
+    background-color: aqua;
+}
+.back{
+    position: fixed;
+
+top: -50%;
+
+left: -50%;
+
+width: 200%;
+height: 200%;
+z-index: 0;
+}
+.img{
+    z-index: 1;
+    position: absolute;
+
+top: 0;
+
+left: 0;
+
+right: 0;
+
+bottom: 0;
+
+margin: auto;
+
+min-width: 50%;
+
+min-height: 50%;
+}
+.text{
+    position: relative;
+    z-index: 2;
+    right: 60px;
+    color: rgb(24, 109, 50);
+    font-size: 20px;
+
+}
+.div{
+    border: 1px , rgb(0, 0, 0), solid;
+    width: 500px;
+    height: 100px;
+margin-top: 160px;
+margin-left: 390px;
+z-index: 2;
+}
+.wat{
+    position: relative;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+.eko{
+    position: relative;
+    margin-left: 300px;
+}
+.help{
+    position: relative;
+    margin-left: 270px;
+  top: -800px;
+}
